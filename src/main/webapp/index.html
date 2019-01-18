@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Home</title>
+</head>
+
+<body data-lift-content-id="main">
+  <div id="main" data-lift="surround?with=default;at=content">
+    <h2>Welcome to a very simple DND monster generator!</h2>
+    <p>
+      To generate a monster, enter an xp between 10 and 160 below and press "Generate".
+    </p>
+    <div data-lift="FirstFunction">
+      <h4 id="monsterText"></h4>
+      <input type="number" id="xpToSpend" placeholder="XP" min="10" max="160" />
+      <button> Generate </button>
+    </div>
+  </div>
+</body>
+
+</html>
